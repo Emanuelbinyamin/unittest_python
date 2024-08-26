@@ -1,5 +1,5 @@
 import unittest  # Import the unittest module for writing and running tests.
-import Testing_unittest_1  # Import the module that contains the function to be tested.
+import FunctionToTest as Testing_unittest_1 # Import the module that contains the function to be tested.
 
 class Test_main(unittest.TestCase):  # Define a test case class derived from unittest.TestCase.
     
